@@ -1,0 +1,44 @@
+# 인증정보와 로컬 설정
+.cache
+.cache-*
+.env
+.env.*
+!.env.example
+settings.json
+data/*389310*.json
+data/*service*account*.json
+
+# 실행 파일과 빌드 산출물
+*.exe
+*.dll
+*.pkg
+*.pyc
+__pycache__/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# 로컬 도구 설정
+.vscode/
+.DS_Store
+
+# 캡처, OCR 결과, 생성한 미리보기
+/output/
+/screenshot*.png
+/screenshot*.json
+/cropped.png
+/temp.json
+/test.py
+/spectate.bat
+
+# 개인 저장 데이터 및 제3자 리소스 (재배포 권한 확인 전 제외)
+/data/registered.json
+/data/graphic_data.json
+/data/images/
+/data/*.ttf
+/data/champion.json
+/data/summoner.json
+/data/item.json
+/*.png
